@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,cACC,kBAAqB,CACrB,cAAe,CACf,kBAAmB,CACnB,iBAAkB,CAClB,YAAa,CACb,kBACD","file":"main.f211fc62.chunk.css","sourcesContent":[".notification {\r\n\tbackground: lightgrey;\r\n\tfont-size: 20px;\r\n\tborder-style: solid;\r\n\tborder-radius: 5px;\r\n\tpadding: 10px;\r\n\tmargin-bottom: 10px;\r\n}\r\n"]}
