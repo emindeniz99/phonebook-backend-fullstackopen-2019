@@ -5,6 +5,7 @@ var morgan = require("morgan")
 const cors = require("cors")
 const Person = require("./models/person")
 
+// eslint-disable-next-line no-unused-vars
 morgan.token("requestBody", function(req, res) {
 	return JSON.stringify(req.body)
 })
@@ -38,7 +39,7 @@ app.get("/api/persons/:id", (req, res, next) => {
 
 app.delete("/api/persons/:id", (req, res, next) => {
 	Person.findByIdAndRemove(req.params.id)
-		.then(result => {
+		.then(() => {
 			res.status(204).end()
 		})
 		.catch(error => next(error))
